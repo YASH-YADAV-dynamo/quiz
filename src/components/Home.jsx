@@ -51,7 +51,7 @@ return (
         Quiz app 
       </h1>
       <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-      Elevate your team's collaboration and unlock the power of VR!  Tired of impersonal video conferences?  Our state-of-the-art VR meeting rooms provide a truly immersive experience, fostering stronger connections and real-time presence for your employees.  But we go beyond presence.  By harnessing machine learning, we analyze attendee expressions and key moments, generating insightful reports that capture the full scope of your discussions.  This translates to streamlined communication, deeper engagement, and actionable post-meeting intelligence – a complete solution designed to empower your workforce and propel your business forward.
+      QuizHub revolutionizes the educational landscape by offering a seamless, all-in-one platform for students, teachers, and administrators. Empowering teachers to craft engaging quizzes tailored to their curriculum and track student progress in real-time, QuizHub fosters a dynamic learning environment. Meanwhile, administrators gain invaluable insights through comprehensive analytics, enabling informed decisions to optimize educational outcomes. With QuizHub, learning transcends boundaries, offering users an immersive, interactive experience that redefines education. Join us today and embark on a journey where knowledge meets innovation, shaping the future of learning for generations to come.
       </p>
       <a
         href="#"
@@ -128,7 +128,7 @@ return (
         Designed for business teams like yours
       </h2>
       <p className="mb-5 font-dark text-black-500 sm:text-xl dark:text-black-400">
-        Here, we focus on transparent opinions where technology, people, and data converge.  We offer a range of pricing options to suit your business needs.
+        Here, we focus on transparent opinions where technology, people, and data converge.  We offer a collective platform for teachers, students and administrators to interact through quiz and track real time progress.
             </p>
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
