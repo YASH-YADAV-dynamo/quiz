@@ -26,16 +26,22 @@ function Header() {
                     <div className="flex items-center lg:order-2">
                         <HashLink
                             to={"/sign"}
-                            className="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
+                            className="text-white-800 dark:text-white hover:bg-white-60 focus:ring-4 focus:ring-black-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-white-800"
                         >
-                            Log in
+                            Sign-In
                         </HashLink>
-                        <HashLink
-                            to={"/register"}
+                         {/* <HashLink
+                            to={"/sign"}
                             className="text-white bg-blue-600 hover:bg-primary-100 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-800 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
                         >
-                            Get started
-                        </HashLink>
+                            Log in
+                        </HashLink> */}
+                        <HashLink
+                            to={"/"}
+                            className="text-white bg-blue-600 hover:bg-primary-100 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-800 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
+                        >
+                            Log out
+                        </HashLink> 
                         <button
                             data-collapse-toggle="mobile-menu-2"
                             type="button"
@@ -118,13 +124,13 @@ function Header() {
                                 </HashLink>
                             </li>
                             <li>
-                                <div
+                                {/* <div
                                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 cur
                                     sor-pointer" 
                                 onClick={handleLogout}
                                 >
                                     LogOut
-                                </div>
+                                </div> */}
 
 
                             </li>
