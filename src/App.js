@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Start from "./components/Start";
 // import Login from "./components/Login";
 import SignIn from './components/SignIn';
+import Student from "./components/Student";
 
 function App() {
   return ( 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/register" element={<Start />} />
         <Route path="/sign" element={<SignIn />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/student" element={<Student/>} />
       </Routes>
       <Footer/>
     </Router>  

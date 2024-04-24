@@ -1,4 +1,5 @@
 import {Carousel} from "react-responsive-carousel";
+import { HashLink } from "react-router-hash-link";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import "../styles/home.css";
 import img from "../assets/img.jpg";
@@ -6,6 +7,7 @@ import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg"; 
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.png";
+import Student from "./Student";
 
 
 function Home() {
@@ -153,12 +155,12 @@ return (
                   {/* Icon */}
                 </li>
               </ul>
-              <a
-                href="/student"
+              <HashLink
+                to="/student"
                 className="text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
               >
                 Login as Student
-              </a>
+              </HashLink>
             </div>
             {/* Pricing Card */}
             <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
