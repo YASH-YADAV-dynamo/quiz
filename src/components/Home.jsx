@@ -6,10 +6,7 @@ import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg"; 
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.png";
-import imgs from "../assets/imgs.jpg";
-import imgy from "../assets/imgy.png";
-import imgr from "../assets/imgr.png";
-import imgv from "../assets/imgv.jpg";
+
 
 function Home() {
 return (
@@ -44,7 +41,7 @@ return (
 
         {/* -------------------------------------------------------------------------------------------------------------------- */}
 
-        <section className="bg-white dark:bg-orange-600" id="company">
+        <section className="bg-white dark:bg-orange-700" id="company">
   <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -98,7 +95,7 @@ return (
         Embrace the future of meetings and worker's opinions !
       </h2>
       <p className="mb-4">
-        lprem1
+      QuizHub serves as an invaluable resource for students, offering a dynamic platform where learning becomes engaging and interactive. Through QuizHub, students gain access to a diverse range of quizzes crafted by dedicated educators, covering various subjects and topics. With quizzes tailored to their curriculum, students can reinforce their understanding of key concepts, test their knowledge, and identify areas for improvement. Real-time feedback and progress tracking empower students to monitor their performance and track their growth over time. By providing a stimulating learning environment, QuizHub equips students with the tools they need to succeed academically and develop a lifelong love for learning.
       </p>
       <p>
       By embracing this collaborative approach, you unlock the collective genius of your team, ensuring every voice shapes strategic decisions.  This, HR, is the breeding ground for industry giants!
